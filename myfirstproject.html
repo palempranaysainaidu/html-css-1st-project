@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<!-- saved from url=(0036)http://127.0.0.1:5500/portfolio.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./myfirstproject_files/styles.css">
+</head>
+<body>
+    <header>
+        <h1>welcome to my portfolio</h1>
+        <div>
+        <a href="http://127.0.0.1:5500/portfolio.html#about">
+            <button class="button">
+                about
+            </button>
+        </a>    
+        <a href="http://127.0.0.1:5500/portfolio.html#skills">
+            <button class="button">
+               skills
+            </button>
+        </a>    
+        <a href="http://127.0.0.1:5500/portfolio.html#projects">
+            <button class="button">
+               projects
+            </button>
+        </a>
+        <a href="http://127.0.0.1:5500/portfolio.html#contact">
+            <button class="button">
+              contact
+            </button>
+        </a> 
+    </div>
+
+    </header>
+    <main>
+        <section id="about">
+           
+   
+    <h1>PALEM PRANAY SAI NAIDU</h1>
+    <img src="./myfirstproject_files/pranaypic.jpg" alt="">
+<p>I am currently a passionate web developer with a focus on front-end technologies</p>
+<p>I am pursuing my b-tech in <em>MATURI VENKATA SUBBA ROA ENGINEERING COLLEGE(MVSR) NADERGUL,HYDERABAD</em></p>
+<p>I have learned web development from <br>code with swaroop</p>
+<p>You can <strong>click here </strong>to check out my skills</p>
+
+        </section>
+        <section id="skills">
+            <h1>My skills</h1>
+            <ol>
+                <li>PYTHON BASICS</li>
+                <li>HTML BASICS</li>
+                <li>CSS BASICS</li>
+                <li>JAVASCRIPT BASICS</li>
+            </ol>
+
+        </section>
+        <section id="projects">
+            <h1>My projects</h1>
+
+            <table border="1">
+    <tbody><tr>
+        <th>project</th>
+        <th>description</th>
+    </tr>
+    <tr>
+        <td>portfolio website</td>
+        <td>I have built a portfolio website by using HTML,CSS &amp; Javascript</td>
+    </tr>
+    <tr>
+        <td>python simple calculator</td>
+        <td>I have built a simple calculator in the course by code with swaroop</td>
+    </tr>
+</tbody></table>
+
+
+
+
+        </section>
+        <section id="contact">
+            <h1>Contact me</h1>
+            <p>Feel free to get in touch with me using the form below:</p>
+            <form action="http://127.0.0.1:5500/portfolio.html">
+                <div>
+            <label for="name">NAME:</label>
+            <input type="text">
+        </div>
+            
+       
+       <div>
+            <label for="email">EMAIL:</label>
+            <input type="email">
+        </div>
+       <div>
+            <b>choose your gender:</b>
+            <input type="radio" id="male" value="male">
+            <label for="male">male</label>
+            <input type="radio" id="female" value="female">
+            <label for="female">female</label>
+        </div>
+       
+       <div>   
+
+
+     
+            <b>select your intrests</b>
+            <input type="checkbox" id="coding" value="coding">
+            <label for="coding">coding</label>
+            <input type="checkbox" id="reading" value="reading">
+            <label for="reading">reading</label>
+        </div>      
+       
+            <div>
+            <label for="bio"> bio(up to 200 charecters):</label>
+            <input type="text">
+        </div>
+       
+            <button type="submit" class="submit">submit</button>
+        </form>
+       <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+       
+
+        </section>
+
+
+    </main>
+    <a href="http://127.0.0.1:5500/portfolio.html">
+    <button class="fixed button">top</button>
+</a>
+    <footer>
+        <p>@ 2025 my portfolio</p>
+
+    </footer>
+
+    </body></html>
